@@ -1,23 +1,34 @@
 class Solution {
     public String[] findWords(String[] words) {
-        ArrayList<String> list = new ArrayList<>();
-        String first  = "qwertyuiop";
-        String second = "asdfghjkl";
-        String third  = "zxcvbnm";
+        String row1= "qwertyuiop";
+        String row2="asdfghjkl";
+        String row3 ="zxcvbnm";
+        ArrayList<String> ans = new ArrayList<>();
+        for(int i =0;i<words.length;i++){
+            String word = words[i].toLowerCase();
+            int count1 =0;
+            int count2 =0;
+            int count3 =0;
+            for(int j =0;j<word.length();j++){
+                char ch = word.charAt(j);
+                if(row1.indexOf(ch)!=-1){
+                    count1++;
+                }
+                if(row2.indexOf(ch)!=-1){
+                    count2++;
 
-        for (String word : words) {
-            if (isinrow(word, first) || isinrow(word, second) || isinrow(word, third)) {
-                list.add(word);
+                }
+                if(row3.indexOf(ch)!= -1){
+                    count3++;
+                }
+
             }
-        }
+            if(count1 == word.length() || count2 == word.length() || count3 == word.length()){
+                ans.add(words[i]);
+            }
 
-        return list.toArray(new String[0]);
-    }
-
-    private boolean isinrow(String s, String row) {
-        for (char c : s.toCharArray()) {
-            if (row.indexOf(Character.toLowerCase(c)) == -1) return false;
         }
-        return true;
+        return ans.toArray(new String[0]);
+
     }
 }
