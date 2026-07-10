@@ -1,26 +1,22 @@
 class Solution {
-
-    public int countvowel(String s) {
-        s = s.toLowerCase();
-
-        int count = 0;
-
-        for (char ch : s.toCharArray()) {
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-                count++;
-        }
-
-        return count;
-    }
-
     public boolean halvesAreAlike(String s) {
-
-        int n = s.length();
-
-        int a = countvowel(s.substring(0, n / 2));
-
-        int b = countvowel(s.substring(n / 2));
-
-        return a == b;
+        int c1=0;
+        int c2=0;
+        int mid = s.length()/2;
+        for(int i=0;i<mid;i++){
+            char ch = s.charAt(i);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+               ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+                c1++;
+            }
+        }
+        for(int i=mid;i<s.length();i++){
+            char ch = s.charAt(i);
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+               ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+                c2++;
+            }
+        }
+        return c1==c2;
     }
 }
