@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0459-repeated-substring-pattern) |
 | [0500-keyboard-row](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0500-keyboard-row) |
+| [0520-detect-capital](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0520-detect-capital) |
 | [0551-student-attendance-record-i](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0551-student-attendance-record-i) |
 | [0686-repeated-string-match](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0686-repeated-string-match) |
 | [0796-rotate-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0796-rotate-string) |
