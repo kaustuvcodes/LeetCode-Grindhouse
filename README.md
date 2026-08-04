@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0074-search-a-2d-matrix) |
 | [0118-pascals-triangle](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0069-sqrtx) |
+| [0074-search-a-2d-matrix](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0349-intersection-of-two-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0074-search-a-2d-matrix) |
 | [1260-shift-2d-grid](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1301-number-of-paths-with-max-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/2812-find-the-safest-path-in-a-grid) |
