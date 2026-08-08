@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0009-palindrome-number) |
 | [0069-sqrtx](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0070-climbing-stairs) |
 | [0628-maximum-product-of-three-numbers](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0628-maximum-product-of-three-numbers) |
 | [1903-largest-odd-number-in-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1903-largest-odd-number-in-string) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -269,4 +271,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0100-same-tree) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
