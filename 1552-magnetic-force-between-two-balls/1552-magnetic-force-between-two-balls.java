@@ -1,30 +1,39 @@
 class Solution {
-    public int maxDistance(int[] position, int m) {
-        Arrays.sort(position);
-        int lo = 0;
-        int hi = position[position.length - 1];
-        int optimal = 0;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (isPlacementPossible(position, m, mid)) {
-                optimal = mid;
-                lo = mid += 1;
-            } else {
-                hi = mid -1;
-            }
-        }
-        return optimal;
-    }
 
-    private boolean isPlacementPossible(int[] positions, int m, int max) {
-        int count = 1;
-        int last = positions[0];
-        for (int i = 0; i < positions.length; i++) {
-            if (positions[i] - last >= max) {
-                last = positions[i];
-                count++;
+    boolean isPossible(int[] position , int  mid , int m){
+        int lastPosition = position[0];
+        int totalBallPlaced = 1;
+
+        for(int i=1; i<position.length; i++){
+            if(position[i] - lastPosition >= mid){
+                lastPosition = position[i];
+                totalBallPlaced++;
             }
         }
-        return count >= m;
+
+        return totalBallPlaced >= m;
+    }
+    public int maxDistance(int[] position, int m) {
+        int n = position.length;
+        Arrays.sort(position);
+        int min = position[0];
+        int max = position[n-1];
+
+        int left = 1;
+        int right = max - min;
+        int ans = -1;
+
+        while(left <= right){
+            int mid = left + (right - left) / 2;
+
+            if(isPossible(position , mid , m)){
+                left = mid + 1;
+                ans = mid;
+            }else{
+                right = mid - 1;
+            }
+        }
+
+        return ans;
     }
 }
