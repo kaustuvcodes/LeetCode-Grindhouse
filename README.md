@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0383-ransom-note](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0387-first-unique-character-in-a-string) |
 | [0454-4sum-ii](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0454-4sum-ii) |
 | [0500-keyboard-row](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0500-keyboard-row) |
 | [0599-minimum-index-sum-of-two-lists](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0599-minimum-index-sum-of-two-lists) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0387-first-unique-character-in-a-string) |
 | [0392-is-subsequence](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0459-repeated-substring-pattern) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0383-ransom-note) |
+| [0387-first-unique-character-in-a-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0387-first-unique-character-in-a-string) |
 | [1704-determine-if-string-halves-are-alike](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1704-determine-if-string-halves-are-alike) |
 ## Prefix Sum
 |  |
@@ -400,4 +403,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0836-rectangle-overlap) |
+## Queue
+|  |
+| ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0387-first-unique-character-in-a-string) |
 <!---LeetCode Topics End-->
