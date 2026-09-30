@@ -435,4 +435,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Database
+|  |
+| ------- |
+| [0182-duplicate-emails](https://github.com/kaustuvcodes/https-github.com-kaustuvcodes-LeetCode-Grindhouse/tree/master/0182-duplicate-emails) |
 <!---LeetCode Topics End-->
