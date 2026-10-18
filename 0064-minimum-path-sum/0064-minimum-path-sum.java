@@ -1,21 +1,30 @@
 class Solution {
-    int[][] ans;
     public int minPathSum(int[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
-        ans = new int[n][m];
-        for(int[] rows : ans){
-            Arrays.fill(rows , -1);
+        int m = grid.length, n = grid[0].length;
+
+        int[][] dp = new int[m][n];
+
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
-        return solve(grid , n - 1 , m - 1);
+
+        return min(0, 0, grid, dp);
     }
-    public int solve(int[][] grid , int i , int j){
-        if(i < 0 || j < 0) return Integer.MAX_VALUE;
-        if(i == 0 && j == 0) return grid[0][0];
-        if(ans[i][j] != -1) return ans[i][j];
-        int up = solve(grid , i - 1 , j);
-        int left = solve(grid , i , j - 1);
-        ans[i][j] = grid[i][j] + Math.min(up ,left);
-        return ans[i][j];
+
+    int min(int x, int y , int[][] grid, int[][] dp) {
+        if (x >= grid.length || y >= grid[0].length) {
+            return Integer.MAX_VALUE;
+        }
+
+        if (x == grid.length - 1 && y == grid[0].length - 1) {
+            return grid[x][y];
+        }
+
+        if (dp[x][y] != -1) {
+            return dp[x][y];
+        }
+
+        return dp[x][y] = grid[x][y] + Math.min(min(x + 1, y, grid, dp),
+                min(x, y + 1, grid, dp));
     }
 }
